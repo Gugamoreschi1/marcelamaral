@@ -2564,6 +2564,9 @@ img{
 
 .fact-counter{
 	position:relative;
+	display: flex;
+	justify-content: center;
+	
 }
 
 .fact-counter .column{
@@ -2702,6 +2705,9 @@ img{
 .team-section{
 	position:relative;
 	padding-top:110px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .team-section:before{
@@ -2711,7 +2717,7 @@ img{
 	top:0px;
 	width:100%;
 	bottom:67px;
-	background-color:#191514;
+
 }
 
 .team-section .section-title .text{
@@ -2733,6 +2739,10 @@ img{
 .team-block{
 	position:relative;
 	margin-bottom:30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
 }
 
 .team-block .inner-box{
@@ -6970,4 +6980,11 @@ img{
 .sidebar .popular-tags a:hover{
 	background-color:#d5aa6d;
 	color:#ffffff;	
+}
+
+.flex-team {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
 }
